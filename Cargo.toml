@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "coinbase-example",
+    "coinbase-fix-utils",
+    "coinbase-fix42-order-entry",
+    "coinbase-fix50-market-data",
+    "executor",
+    "single-order-sender",
+]

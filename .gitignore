@@ -1,0 +1,9 @@
+# Build dir
+target
+
+# QuickFIX output path
+store
+log
+
+# Code coverage
+lcov.info

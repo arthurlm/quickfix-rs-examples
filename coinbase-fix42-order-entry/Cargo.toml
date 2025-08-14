@@ -1,0 +1,11 @@
+[package]
+name = "coinbase-fix42-order-entry"
+version = "0.1.6"
+edition = "2021"
+publish = false
+
+[dependencies]
+quickfix = "0.2.0"
+
+[build-dependencies]
+quickfix-msg-gen = "0.2.0"
