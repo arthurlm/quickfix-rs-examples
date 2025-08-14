@@ -37,11 +37,11 @@ quickfix = { git = "https://github.com/arthurlm/quickfix-rs.git" }
 Running executor (simple app that execute every order you sent to it):
 
 ```sh
-cargo r --bin=executor examples/configs/server.ini
+cargo r --bin=executor configs/server.ini
 ```
 
 Running single order sender:
 
 ```sh
-cargo r --bin=single-order-sender  examples/configs/client.ini
+cargo r --bin=single-order-sender  configs/client.ini
 ```
