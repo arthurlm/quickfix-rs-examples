@@ -165,7 +165,7 @@ fn main() -> anyhow::Result<()> {
         &app,
         &store_factory,
         &log_factory,
-        FixSocketServerKind::SingleThreaded,
+        FixSocketServerKind::SslMultiThreaded,
     )?;
 
     // Start the engine.
